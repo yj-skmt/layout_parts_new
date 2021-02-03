@@ -10,8 +10,12 @@
   cursor: pointer;
 }
 
-.q8__tarns__thumb {
+.q8__trans__thumb {
   transition: all .5s;
+}
+
+.q8__trans:hover .q8__trans__thumb {
+  transform: scale(1.5);
 }
 
 .q8__trans__desc {
@@ -24,9 +28,6 @@
   transition: all .5s;
 }
 
-.q8__trans:hover .q8__tarns__thumb {
-  transform: scale(1.5);
-}
 
 .q8__trans:hover .q8__trans__desc {
   bottom: 0;
@@ -37,7 +38,7 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 20px;
+  padding: 4%;
   color: #fff;
   box-sizing: border-box;
   word-break: break-all;
